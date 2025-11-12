@@ -6,12 +6,12 @@ const styles = StyleSheet.create({
     parent: {
         flexDirection: 'row',
         marginTop: 30,
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
     },
     child: {
         width: 80,
         height: 80,
-        textAlign: 'center'
+        textAlign: 'center',
     },
 });
 
@@ -22,10 +22,10 @@ const Exercise4 = () => {
                 <Text style={[styles.child, {backgroundColor: 'skyblue'}]}>Square 1</Text>
             </View>
             <View>
-                <Text style={[styles.child, {backgroundColor: 'turquoise'}]}>Square 2</Text>
+                <Text style={[styles.child, {backgroundColor: 'aquamarine'}]}>Square 2</Text>
             </View>
             <View>
-                <Text style={[styles.child, {backgroundColor: 'purple', color: 'white'}]}>Square 3</Text>
+                <Text style={[styles.child, {backgroundColor: 'crimson'}]}>Square 3</Text>
             </View>
         </View>
     );
